@@ -19,7 +19,7 @@ class _mainhomeState extends State<mainhome> {
     const RoadMap(),
     const Cources(),
     const aichat(),
-    const Notes(),
+    Notes(),
   ];
 
   @override

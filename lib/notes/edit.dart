@@ -39,7 +39,7 @@ class _EditNotesState extends State<EditNotes> {
 
       if (response['status'] == "success") {
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => const Notes(),
+          builder: (context) => Notes(),
         ));
       } else {
         print("rj3 l edit.dart");

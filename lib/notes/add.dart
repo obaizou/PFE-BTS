@@ -39,10 +39,13 @@ class _AddNotesState extends State<AddNotes> {
       });
 
       if (response['status'] == "success") {
-        // Get.back();
-        Navigator.of(context).pop(MaterialPageRoute(
-          builder: (context) => const Notes(),
-        ));
+        Get.back();
+        // Get.off(Notes());
+        // Get.offAll(Notes());
+        // Get.offAll(Notes());
+        // Navigator.of(context).pop(MaterialPageRoute(
+        //   builder: (context) => Notes(),
+        // ));
       } else {
         print("rj3 l add.dart");
       }
